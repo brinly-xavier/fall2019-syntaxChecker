@@ -14,6 +14,7 @@ class FileCheck
   FileCheck(string fileLocation);//constructor
   ~FileCheck();//deconstructor
   GenStack <char>* symStack; //the stack that counts all the delimeters
+  GenStack <int>* numStack; //the stack that counts the lines where the delimeters occur
   void fCheck(string fileLocation);//method does the checking
-  void delimChecker(); //checks for the delimeters
+  void delimConseq();//checks for the delimeters
 };

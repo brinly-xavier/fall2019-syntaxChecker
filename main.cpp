@@ -17,12 +17,9 @@ int main(int argc, char **argv){
   while(loop == "yes"){
     //this takes the filename as a command line argument
     fileLocation = argv[1];  
-    /*for(int i = 0; i < checker.symStack->top+1; ++i){
-      cout<< checker.symStack->myArray[i]<<endl;
-    }
-    */
     try{
       FileCheck checker(fileLocation);
+      cout<<"All of the syntax is good."<<endl;
    }
     catch(runtime_error e){
       //this runtime error ends the program once the first error is detected

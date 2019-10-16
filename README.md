@@ -12,10 +12,7 @@
     d. helloworld2
     e. GenStack.h
 
-3.) Description of any known compile/runtime errors, or bugs.
-    a. dear lord I hope there is not any
-
-4.) References used to complete the assignment
+3.) References used to complete the assignment
     a. https://stackoverflow.com/questions/41597744 why-am-i-getting-a-multiple-definition-error-how-do-i-fix-it
     b. http://www.cplusplus.com/reference/string/string/getline/
     c. https://stackoverflow.com/questions/3072795/how-to-count-lines-of-a-file-in-c
@@ -26,7 +23,7 @@
     Joely Fontana
     Stephen White
 
-5.) Instructions for running the assignment
+4.) Instructions for running the assignment
     1.) Download the file from github
     2.) cd to the project folder
     3.) input "g++ *.cpp"

@@ -35,9 +35,11 @@ class GenStack
 
     void push(stackTemp d){
       myArray[++top] = d;
+      //this takes in an element and places it into the top of the stack
     }
     stackTemp pop(){ 
-      if(isEmpty != true ){
+      if(isEmpty() != true ){
+        //if this is not empty then the top of the stack is returned and removed
         return myArray[top--];
       }
       else{
@@ -45,13 +47,16 @@ class GenStack
       }
     }
     stackTemp peek(){
-      //AKA top()
+      //just returns the top of the stack
       return myArray[top];
     }
     bool isFull(){
+      //this checks if the stack is full or not
       return(top == - 1);
     }
     bool isEmpty(){
+      //this also checks the size of the stack and
+      //makes sure that it is not empty
       return (top == size -1);
     }
 
